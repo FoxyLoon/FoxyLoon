@@ -1,16 +1,100 @@
-## Hi there 👋
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f12711,100:f5af19&height=240&section=header&text=FoxyLoon&fontSize=68&fontColor=ffffff&fontAlignY=38&fontStyle=bold&desc=The%20Mystic%20Fox%20of%20Twelve%20Tails&descSize=20&descAlignY=58&descColor=ffffffaa&animation=fadeIn&stroke=ffffff&strokeWidth=2" width="100%" alt="FoxyLoon banner"/>
+</div>
 
-<!--
-**FoxyLoon/FoxyLoon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=ef4444&center=true&vCenter=true&width=640&lines=Shipping%2C%20validating%2C%20repeating;Building%20small%20products%20with%20sharp%20positioning)](https://git.io/typing-svg)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Profile Views](https://komarev.com/ghpvc/?username=FoxyLoon&color=ef4444&style=flat-square)
+
+![Open to work](https://img.shields.io/badge/%F0%9F%9F%A2%20Open%20to%20work-ef4444?style=flat-square)
+
+</div>
+
+### About
+
+I like to learn
+
+- ⌖ **Location** · Lost in Space
+- ✦ **Fun fact** · The Paradox is the Inifinite Null of a Paradox
+
+### Stack
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=js,python,css,html,cpp&theme=dark" alt="Languages"/>
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=tailwind,react,vite,bootstrap&theme=dark" alt="Frontend"/>
+
+**Backend & Databases**
+
+<img src="https://skillicons.dev/icons?i=nodejs&theme=dark" alt="Backend & Databases"/>
+
+**DevOps & Cloud**
+
+<img src="https://skillicons.dev/icons?i=git,linux,vscode&theme=dark" alt="DevOps & Cloud"/>
+
+### Languages
+- 🇬🇧 **English** · ![Intermediate](https://img.shields.io/badge/-Intermediate-f7c948?style=flat-square)
+
+### GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=FoxyLoon&show_icons=true&theme=gruvbox&include_all_commits=true&count_private=true&hide_border=true" alt="FoxyLoon stats"/> <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FoxyLoon&layout=compact&langs_count=8&theme=gruvbox&hide_border=true" alt="FoxyLoon top languages"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=FoxyLoon&theme=gruvbox&hide_border=true)](https://git.io/streak-stats)
+
+</div>
+
+### Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=FoxyLoon&theme=gruvbox&column=6&no-frame=true&margin-w=8" alt="FoxyLoon trophies"/>
+
+</div>
+
+### Activity
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=FoxyLoon&theme=github&hide_border=true&area=true)](https://github-readme-activity-graph.vercel.app/graph?username=FoxyLoon&theme=github&hide_border=true&area=true)
+
+### Now Playing
+
+<div align="center">
+
+[![Spotify](https://novatorem.vercel.app/api/spotify)](https://open.spotify.com)
+
+</div>
+
+> Requires [Novatorem](https://github.com/novatorem/novatorem) setup
+
+### Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FoxyLoon/FoxyLoon/output/github-contribution-grid-snake-dark.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/FoxyLoon/FoxyLoon/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+> Requires GitHub Actions setup
+
+---
+
+<div align="center">
+
+<sub>Made with <a href="https://lebedevnet.github.io/ReadmeForge/">ReadmeForge</a> · <a href="https://github.com/FoxyLoon">github.com/FoxyLoon</a></sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:f12711,100:f5af19&height=120&section=footer" width="100%" alt="Footer wave"/>
+
+</div>
