@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:09131B,50:FF652F,100:FFE400&height=260&section=header&text=FoxyLoon&fontSize=78&fontColor=ffffff&fontAlignY=36&fontStyle=bold&desc=The%20Mystic%20Fox%20of%20Twelve%20Tails&descSize=22&descAlignY=60&descColor=FFE400&animation=fadeIn&stroke=FF652F&strokeWidth=2" width="100%" alt="FoxyLoon banner"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=FF652F&center=true&vCenter=true&width=720&lines=Shipping%2C+validating%2C+repeating;Building+small+products+with+sharp+positioning;Lost+in+space%2C+found+in+code;%E2%8C%96+Location+%C2%B7+Lost+in+Space;%E2%9C%A6+Fun+fact+%C2%B7+The+Paradox+is+the+Infinite+Null+of+a+Paradox;%F0%9F%8C%B1+Currently+%C2%B7+Learning%2C+shipping%2C+iterating;%F0%9F%92%AC+Ask+me+about+%C2%B7+Frontend%2C+small+products%2C+sharp+positioning)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=FF652F&center=true&vCenter=true&width=720&lines=Shipping%2C%20validating%2C%20repeating;Building%20small%20products%20with%20sharp%20positioning;Lost%20in%20space%2C%20found%20in%20code;Twelve%20tails%2C%20zero%20bugs%20%28hopefully%29;Compiling%20stardust%20into%20features;Debugging%20the%20void%20between%20stars;Orbiting%20ideas%2C%20landing%20PRs;The%20fox%20debugs%20at%20midnight;Refactoring%20the%20cosmos%2C%20one%20commit%20at%20a%20time)](https://git.io/typing-svg)
 
 <br/>
 
