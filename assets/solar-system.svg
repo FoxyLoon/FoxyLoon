@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" role="img" aria-label="Animated solar system of FoxyLoon GitHub languages">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Animated solar system of FoxyLoon GitHub languages">
 <rect width="100%" height="100%" fill="#0d1117"/>
-<defs><radialGradient id="nova" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffffff"/><stop offset="18%" stop-color="#FFE400"/><stop offset="45%" stop-color="#FF652F"/><stop offset="100%" stop-color="#FF652F" stop-opacity="0"/></radialGradient><filter id="fg" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="7"/></filter></defs>
+<defs><radialGradient id="nova" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffffff"/><stop offset="18%" stop-color="#FFE400"/><stop offset="45%" stop-color="#FF652F"/><stop offset="100%" stop-color="#FF652F" stop-opacity="0"/></radialGradient><filter id="fg" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5"/></filter></defs>
 <circle cx="61" cy="61" r="1.1" fill="#8b949e" opacity="0.25" class="tw"/>
 <circle cx="137" cy="113" r="1.1" fill="#8b949e" opacity="0.40"/>
 <circle cx="219" cy="167" r="1.1" fill="#8b949e" opacity="0.55"/>
@@ -17,41 +17,40 @@
 <circle cx="519" cy="61" r="1.1" fill="#8b949e" opacity="0.40"/>
 <circle cx="887" cy="523" r="1.1" fill="#8b949e" opacity="0.55"/>
 <circle cx="63" cy="583" r="1.1" fill="#8b949e" opacity="0.25" class="tw"/>
-<text x="28" y="46" font-family="Fira Code, ui-monospace, monospace" font-size="15" letter-spacing="4" fill="#e6edf3">SOLAR SYSTEM · @FOXYLOON</text>
-<ellipse cx="480" cy="341" rx="92" ry="36.8" fill="none" stroke="#30363d" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.5" transform="rotate(-14 480 341)"/>
-<ellipse cx="480" cy="341" rx="128" ry="51.2" fill="none" stroke="#30363d" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.5" transform="rotate(-14 480 341)"/>
-<ellipse cx="480" cy="341" rx="164" ry="65.6" fill="none" stroke="#30363d" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.5" transform="rotate(-14 480 341)"/>
-<ellipse cx="480" cy="341" rx="200" ry="80.0" fill="none" stroke="#30363d" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.5" transform="rotate(-14 480 341)"/>
-<ellipse cx="480" cy="341" rx="236" ry="94.4" fill="none" stroke="#30363d" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.5" transform="rotate(-14 480 341)"/>
-<g><animateMotion dur="16s" repeatCount="indefinite" rotate="0" path="M 569.3,318.7 A 92,36.8 -14 1 0 390.7,363.3 A 92,36.8 -14 1 0 569.3,318.7"/><circle r="24.3" fill="#f34b7d" stroke="#0d1117" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Fira Code, ui-monospace, monospace" font-size="13" font-weight="700" fill="#0d1117">C++</text></g>
-<text x="514.6" y="322.7" font-family="Fira Code, ui-monospace, monospace" font-size="12" fill="#e6edf3">C++ 49.3%</text>
-<g><animateMotion dur="20s" repeatCount="indefinite" rotate="0" path="M 604.2,310.0 A 128,51.2 -14 1 0 355.8,372.0 A 128,51.2 -14 1 0 604.2,310.0"/><circle r="23.2" fill="#555555" stroke="#0d1117" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Fira Code, ui-monospace, monospace" font-size="13" font-weight="700" fill="#0d1117">C</text></g>
-<text x="565.6" y="314.0" font-family="Fira Code, ui-monospace, monospace" font-size="12" fill="#e6edf3">C 43.6%</text>
-<g><animateMotion dur="24s" repeatCount="indefinite" rotate="0" path="M 639.1,301.3 A 164,65.6 -14 1 0 320.9,380.7 A 164,65.6 -14 1 0 639.1,301.3"/><circle r="12.8" fill="#3572A5" stroke="#0d1117" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Fira Code, ui-monospace, monospace" font-size="8" font-weight="700" fill="#0d1117">PY</text></g>
-<text x="573.7" y="305.3" font-family="Fira Code, ui-monospace, monospace" font-size="12" fill="#e6edf3">Python 6.7%</text>
-<g><animateMotion dur="28s" repeatCount="indefinite" rotate="0" path="M 674.1,292.6 A 200,80.0 -14 1 0 285.9,389.4 A 200,80.0 -14 1 0 674.1,292.6"/><circle r="7.4" fill="#DA3434" stroke="#0d1117" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Fira Code, ui-monospace, monospace" font-size="8" font-weight="700" fill="#0d1117">CMK</text></g>
-<text x="621.5" y="296.6" font-family="Fira Code, ui-monospace, monospace" font-size="12" fill="#e6edf3">CMake 0.3%</text>
-<g><animateMotion dur="32s" repeatCount="indefinite" rotate="0" path="M 709.0,283.9 A 236,94.4 -14 1 0 251.0,398.1 A 236,94.4 -14 1 0 709.0,283.9"/><circle r="6.8" fill="#89e051" stroke="#0d1117" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Fira Code, ui-monospace, monospace" font-size="8" font-weight="700" fill="#0d1117">SH</text></g>
-<text x="657.0" y="287.9" font-family="Fira Code, ui-monospace, monospace" font-size="12" fill="#e6edf3">Shell 0.1%</text>
-<g opacity="0.9"><animateMotion dur="11s" repeatCount="indefinite" begin="-5s" rotate="0" path="M 30,160 Q 480.0,130 930,130"/><line x1="0" y1="0" x2="-26" y2="6" stroke="#FF652F" stroke-width="2" opacity=".65" stroke-linecap="round"/><circle r="3" fill="#FFE400" filter="url(#fg)"/></g>
-<text x="920" y="120" text-anchor="end" font-family="Fira Code, ui-monospace, monospace" font-size="11" fill="#8b949e" opacity=".85">25-26_SO2_TP</text>
-<g opacity="0.9"><animateMotion dur="11s" repeatCount="indefinite" begin="-2s" rotate="0" path="M 30,110 Q 480.0,170 930,170"/><line x1="0" y1="0" x2="-26" y2="6" stroke="#FF652F" stroke-width="2" opacity=".65" stroke-linecap="round"/><circle r="3" fill="#FFE400" filter="url(#fg)"/></g>
-<text x="920" y="160" text-anchor="end" font-family="Fira Code, ui-monospace, monospace" font-size="11" fill="#8b949e" opacity=".85">FoxyLoon</text>
-<g transform="translate(480 341)">
-<circle r="96" fill="url(#nova)" filter="url(#fg)"/>
-<circle r="96" fill="url(#nova)" opacity=".7"><animate attributeName="opacity" values=".45;.9;.45" dur="3.2s" repeatCount="indefinite"/></circle>
-<circle r="58" fill="none" stroke="#FFE400" stroke-width="2" opacity=".8"><animate attributeName="r" values="50;66;50" dur="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;.2;.8" dur="3.2s" repeatCount="indefinite"/></circle>
-<circle r="26" fill="#ffffff"><animate attributeName="r" values="24;28;24" dur="1.6s" repeatCount="indefinite"/></circle>
-<line x1="8.3" y1="3.4" x2="68.6" y2="27.7" stroke="#FFE400" stroke-width="2.5" opacity=".85" stroke-linecap="round"/>
-<line x1="3.5" y1="8.3" x2="28.9" y2="68.1" stroke="#FFE400" stroke-width="2.5" opacity=".85" stroke-linecap="round"/>
-<line x1="-3.4" y1="8.3" x2="-27.7" y2="68.6" stroke="#FFE400" stroke-width="2.5" opacity=".85" stroke-linecap="round"/>
-<line x1="-8.3" y1="3.5" x2="-68.1" y2="28.9" stroke="#FFE400" stroke-width="2.5" opacity=".85" stroke-linecap="round"/>
-<line x1="-8.3" y1="-3.4" x2="-68.6" y2="-27.7" stroke="#FFE400" stroke-width="2.5" opacity=".85" stroke-linecap="round"/>
-<line x1="-3.5" y1="-8.3" x2="-28.9" y2="-68.1" stroke="#FFE400" stroke-width="2.5" opacity=".85" stroke-linecap="round"/>
-<line x1="3.4" y1="-8.3" x2="27.7" y2="-68.6" stroke="#FFE400" stroke-width="2.5" opacity=".85" stroke-linecap="round"/>
-<line x1="8.3" y1="-3.5" x2="68.1" y2="-28.9" stroke="#FFE400" stroke-width="2.5" opacity=".85" stroke-linecap="round"/>
+<circle cx="901" cy="71" r="1.1" fill="#8b949e" opacity="0.40"/>
+<circle cx="251" cy="547" r="1.1" fill="#8b949e" opacity="0.55"/>
+<text x="28" y="44" font-family="Fira Code, ui-monospace, monospace" font-size="15" letter-spacing="4" fill="#e6edf3">SOLAR SYSTEM · @FOXYLOON</text>
+<g transform="translate(480 312)">
+<circle r="62" fill="url(#nova)" filter="url(#fg)"/>
+<circle r="62" fill="url(#nova)" opacity=".7"><animate attributeName="opacity" values=".45;.9;.45" dur="3.2s" repeatCount="indefinite"/></circle>
+<circle r="38" fill="none" stroke="#FFE400" stroke-width="2" opacity=".8"><animate attributeName="r" values="32;44;32" dur="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;.2;.8" dur="3.2s" repeatCount="indefinite"/></circle>
+<circle r="16" fill="#ffffff"><animate attributeName="r" values="14;18;14" dur="1.6s" repeatCount="indefinite"/></circle>
+<line x1="7.4" y1="3.0" x2="42.7" y2="17.2" stroke="#FFE400" stroke-width="2" opacity=".85" stroke-linecap="round"/>
+<line x1="3.1" y1="7.4" x2="18.0" y2="42.3" stroke="#FFE400" stroke-width="2" opacity=".85" stroke-linecap="round"/>
+<line x1="-3.0" y1="7.4" x2="-17.2" y2="42.7" stroke="#FFE400" stroke-width="2" opacity=".85" stroke-linecap="round"/>
+<line x1="-7.4" y1="3.1" x2="-42.3" y2="18.0" stroke="#FFE400" stroke-width="2" opacity=".85" stroke-linecap="round"/>
+<line x1="-7.4" y1="-3.0" x2="-42.7" y2="-17.2" stroke="#FFE400" stroke-width="2" opacity=".85" stroke-linecap="round"/>
+<line x1="-3.1" y1="-7.4" x2="-18.0" y2="-42.3" stroke="#FFE400" stroke-width="2" opacity=".85" stroke-linecap="round"/>
+<line x1="3.0" y1="-7.4" x2="17.2" y2="-42.7" stroke="#FFE400" stroke-width="2" opacity=".85" stroke-linecap="round"/>
+<line x1="7.4" y1="-3.1" x2="42.3" y2="-18.0" stroke="#FFE400" stroke-width="2" opacity=".85" stroke-linecap="round"/>
 </g>
+<ellipse cx="480" cy="312" rx="140" ry="58.8" fill="none" stroke="#30363d" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.5" transform="rotate(-14 480 312)"/>
+<ellipse cx="480" cy="312" rx="202" ry="84.8" fill="none" stroke="#30363d" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.5" transform="rotate(-14 480 312)"/>
+<ellipse cx="480" cy="312" rx="264" ry="110.9" fill="none" stroke="#30363d" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.5" transform="rotate(-14 480 312)"/>
+<ellipse cx="480" cy="312" rx="326" ry="136.9" fill="none" stroke="#30363d" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.5" transform="rotate(-14 480 312)"/>
+<ellipse cx="480" cy="312" rx="388" ry="163.0" fill="none" stroke="#30363d" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.5" transform="rotate(-14 480 312)"/>
+<g><animateMotion dur="8.0s" repeatCount="indefinite" rotate="0" path="M 615.8,278.1 A 140,58.8 -14 1 0 344.2,345.9 A 140,58.8 -14 1 0 615.8,278.1"/><circle r="6.8" fill="#89e051" stroke="#0d1117" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Fira Code, ui-monospace, monospace" font-size="8" font-weight="700" fill="#0d1117">SH</text></g>
+<g><animateMotion dur="8.1s" repeatCount="indefinite" rotate="0" path="M 676.0,263.1 A 202,84.8 -14 1 0 284.0,360.9 A 202,84.8 -14 1 0 676.0,263.1"/><circle r="7.4" fill="#DA3434" stroke="#0d1117" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Fira Code, ui-monospace, monospace" font-size="8" font-weight="700" fill="#0d1117">CMK</text></g>
+<g><animateMotion dur="11.0s" repeatCount="indefinite" rotate="0" path="M 736.2,248.1 A 264,110.9 -14 1 0 223.8,375.9 A 264,110.9 -14 1 0 736.2,248.1"/><circle r="12.8" fill="#3572A5" stroke="#0d1117" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Fira Code, ui-monospace, monospace" font-size="8" font-weight="700" fill="#0d1117">PY</text></g>
+<g><animateMotion dur="27.6s" repeatCount="indefinite" rotate="0" path="M 796.3,233.1 A 326,136.9 -14 1 0 163.7,390.9 A 326,136.9 -14 1 0 796.3,233.1"/><circle r="23.2" fill="#555555" stroke="#0d1117" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Fira Code, ui-monospace, monospace" font-size="13" font-weight="700" fill="#0d1117">C</text></g>
+<g><animateMotion dur="30.0s" repeatCount="indefinite" rotate="0" path="M 856.5,218.1 A 388,163.0 -14 1 0 103.5,405.9 A 388,163.0 -14 1 0 856.5,218.1"/><circle r="24.3" fill="#f34b7d" stroke="#0d1117" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Fira Code, ui-monospace, monospace" font-size="13" font-weight="700" fill="#0d1117">C++</text></g>
+<g opacity="0.9"><animateMotion dur="6.7s" repeatCount="indefinite" begin="-0.0s" rotate="auto" path="M 694,30 L 940,276"/><line x1="0" y1="0" x2="-24" y2="0" stroke="#FF652F" stroke-width="2" opacity=".7" stroke-linecap="round"/><circle r="3" fill="#FFE400" filter="url(#fg)"/></g>
+<g opacity="0.9"><animateMotion dur="7.5s" repeatCount="indefinite" begin="-1.7s" rotate="auto" path="M 30,140 L 940,550"/><line x1="0" y1="0" x2="-24" y2="0" stroke="#FF652F" stroke-width="2" opacity=".7" stroke-linecap="round"/><circle r="3" fill="#FFE400" filter="url(#fg)"/></g>
+<g opacity="0.9"><animateMotion dur="10.4s" repeatCount="indefinite" begin="-3.4s" rotate="auto" path="M 182,30 L 940,550"/><line x1="0" y1="0" x2="-24" y2="0" stroke="#FF652F" stroke-width="2" opacity=".7" stroke-linecap="round"/><circle r="3" fill="#FFE400" filter="url(#fg)"/></g>
+<g opacity="0.9"><animateMotion dur="10.4s" repeatCount="indefinite" begin="-5.1s" rotate="auto" path="M 30,243 L 940,550"/><line x1="0" y1="0" x2="-24" y2="0" stroke="#FF652F" stroke-width="2" opacity=".7" stroke-linecap="round"/><circle r="3" fill="#FFE400" filter="url(#fg)"/></g>
+<g opacity="0.9"><animateMotion dur="6.5s" repeatCount="indefinite" begin="-6.8s" rotate="auto" path="M 598,30 L 940,372"/><line x1="0" y1="0" x2="-24" y2="0" stroke="#FF652F" stroke-width="2" opacity=".7" stroke-linecap="round"/><circle r="3" fill="#FFE400" filter="url(#fg)"/></g>
+<g opacity="0.9"><animateMotion dur="6.2s" repeatCount="indefinite" begin="-8.5s" rotate="auto" path="M 30,178 L 940,550"/><line x1="0" y1="0" x2="-24" y2="0" stroke="#FF652F" stroke-width="2" opacity=".7" stroke-linecap="round"/><circle r="3" fill="#FFE400" filter="url(#fg)"/></g>
 <style>.tw{animation:tw 2.6s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}</style>
-<text x="28" y="596" font-family="Fira Code, ui-monospace, monospace" font-size="12" fill="#8b949e">planets = languages · size = share of code · comets = repos</text>
-<text x="932" y="596" text-anchor="end" font-family="Fira Code, ui-monospace, monospace" font-size="12" fill="#8b949e">github.com/FoxyLoon</text>
+<text x="28" y="576" font-family="Fira Code, ui-monospace, monospace" font-size="12" fill="#8b949e">planets = languages</text>
+<text x="932" y="576" text-anchor="end" font-family="Fira Code, ui-monospace, monospace" font-size="12" fill="#8b949e">github.com/FoxyLoon</text>
 </svg>
