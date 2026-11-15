@@ -44,13 +44,13 @@ I like to learn
 
 <div align="center">
 
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=FoxyLoon&show_icons=true&theme=gruvbox&include_all_commits=true&count_private=true&hide_border=true" alt="FoxyLoon stats"/> <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=FoxyLoon&layout=compact&langs_count=8&theme=gruvbox&hide_border=true" alt="FoxyLoon top languages"/>
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=FoxyLoon&show_icons=true&theme=codeSTACKr&include_all_commits=true&count_private=true&hide_border=true" alt="FoxyLoon stats"/> <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=FoxyLoon&layout=compact&langs_count=8&theme=codeSTACKr&hide_border=true" alt="FoxyLoon top languages"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=FoxyLoon&theme=gruvbox&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=FoxyLoon&theme=codeSTACKr&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
@@ -58,23 +58,13 @@ I like to learn
 
 <div align="center">
 
-<img src="https://github-trophy.vercel.app/?username=FoxyLoon&theme=gruvbox&column=6&no-frame=true&margin-w=8" alt="FoxyLoon trophies"/>
+<img src="https://github-trophy.vercel.app/?username=FoxyLoon&theme=darkhub&column=6&no-frame=true&margin-w=8" alt="FoxyLoon trophies"/>
 
 </div>
 
 ### Activity
 
-[![Activity Graph](https://github-activity-graph.vercel.app/graph?username=FoxyLoon&theme=github&hide_border=true&area=true)](https://github-activity-graph.vercel.app/graph?username=FoxyLoon&theme=github&hide_border=true&area=true)
-
-### Now Playing
-
-<div align="center">
-
-[![Spotify](https://novatorem.vercel.app/api/spotify)](https://open.spotify.com)
-
-</div>
-
-> Requires [Novatorem](https://github.com/novatorem/novatorem) setup
+[![Activity Graph](https://github-activity-graph.vercel.app/graph?username=FoxyLoon&bg_color=09131B&color=FF652F&line=FF652F&point=FFE400&area=true&hide_border=true)](https://github-activity-graph.vercel.app/graph?username=FoxyLoon&bg_color=09131B&color=FF652F&line=FF652F&point=FFE400&area=true&hide_border=true)
 
 ### Contribution Snake
 
