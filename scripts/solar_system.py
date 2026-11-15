@@ -41,32 +41,56 @@ def fetch(url: str):
         return json.load(r)
 
 
+CACHE = os.environ.get("GITHUB_CACHE_FILE", "assets/.solar-cache.json")
+
+
+def load_cache() -> dict:
+    try:
+        with open(CACHE, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def save_cache(data: dict) -> None:
+    try:
+        with open(CACHE, "w", encoding="utf-8") as f:
+            json.dump(data, f)
+    except Exception:
+        pass
+
+
 def collect() -> tuple[dict[str, int], list[str]]:
+    cached = load_cache()
     langs: dict[str, int] = {}
     repos: list[str] = []
     page = 1
-    while True:
-        data = fetch(f"https://api.github.com/users/{USER}/repos?per_page=100&page={page}&sort=updated")
-        if not data:
-            break
-        for repo in data:
-            if repo.get("fork") or repo.get("size", 0) == 0:
-                continue
-            repos.append(repo["name"])
-            try:
+    try:
+        while True:
+            data = fetch(f"https://api.github.com/users/{USER}/repos?per_page=100&page={page}&sort=updated")
+            if not data:
+                break
+            for repo in data:
+                if repo.get("fork") or repo.get("size", 0) == 0:
+                    continue
+                repos.append(repo["name"])
                 for lang, b in fetch(repo["languages_url"]).items():
                     langs[lang] = langs.get(lang, 0) + int(b)
-            except Exception:
-                continue
-        if len(data) < 100:
-            break
-        page += 1
+            if len(data) < 100:
+                break
+            page += 1
+    except Exception:
+        # fall back to the last successful run
+        langs = cached.get("langs", langs)
+        repos = cached.get("repos", repos)
+    save_cache({"langs": langs, "repos": repos, "total_repos": cached.get("total_repos", 0)})
     return langs, repos
 
 
 def count_all_repos() -> int:
     """Public + private repos of the authenticated user when TOKEN is set,
     otherwise the public count."""
+    cached = load_cache()
     try:
         if TOKEN:
             total = 0
@@ -79,9 +103,11 @@ def count_all_repos() -> int:
                 page += 1
             return total
         me = fetch(f"https://api.github.com/users/{USER}")
-        return int(me.get("public_repos", 0))
+        n = int(me.get("public_repos", 0))
+        save_cache({**load_cache(), "total_repos": n})
+        return n
     except Exception:
-        return 0
+        return int(cached.get("total_repos", 0))
 
 
 def abbrev(name: str) -> str:
@@ -175,11 +201,12 @@ def render(top: list[tuple[str, int]], total: int, total_repos: int, rng: random
     for i in range(total_repos):
         top_edge = i % 2 == 0
         if top_edge:
-            x0, y0 = 40 + rng.randint(0, W - 120), 30
+            x0, y0 = 40 + rng.randint(0, W - 120), -40          # off-canvas top
         else:
-            x0, y0 = 30, 70 + rng.randint(0, 180)
-        x1, y1 = W - 20, min(H - 50, y0 + (W - 20 - x0))
-        dur = rng.uniform(6, 12)
+            x0, y0 = -40, 70 + rng.randint(0, 180)              # off-canvas left
+        x1 = W + 40                                             # off-canvas right
+        y1 = y0 + (x1 - x0)                                     # 45-degree diagonal
+        dur = (x1 - x0) * math.sqrt(2) / 140                    # constant speed px/s
         delay = -(i * 1.7 % 14)
         add(f'<g opacity="0.9">'
             f'<animateMotion dur="{dur:.1f}s" repeatCount="indefinite" begin="{delay:.1f}s" rotate="auto" path="M {x0},{y0} L {x1},{y1}"/>'
