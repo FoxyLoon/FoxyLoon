@@ -10,8 +10,7 @@
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style>
-      .orbit { fill:none; stroke:#FF652F; stroke-width:1; stroke-dasharray:4 6; opacity:.35; }
-      .rot { transform-origin: 360px 360px; }
+      .orbit { fill:none; stroke:#FF652F; stroke-width:1.2; stroke-dasharray:5 7; opacity:.4; }
     </style>
   </defs>
 
@@ -24,66 +23,73 @@
     <circle cx="600" cy="620" r="1.3" opacity=".5"/>
     <circle cx="300" cy="40" r="1" opacity=".4"/>
     <circle cx="500" cy="680" r="1.1" opacity=".5"/>
+    <circle cx="180" cy="200" r="0.8" opacity=".4"/>
+    <circle cx="540" cy="520" r="0.9" opacity=".4"/>
   </g>
 
-  <!-- orbits -->
+  <!-- orbits (inclined ellipses) -->
   <g>
-    <circle class="orbit" cx="360" cy="360" r="90"/>
-    <circle class="orbit" cx="360" cy="360" r="130"/>
-    <circle class="orbit" cx="360" cy="360" r="170"/>
-    <circle class="orbit" cx="360" cy="360" r="210"/>
-    <circle class="orbit" cx="360" cy="360" r="250"/>
-    <circle class="orbit" cx="360" cy="360" r="290"/>
-    <circle class="orbit" cx="360" cy="360" r="330"/>
+    <path id="o1" class="orbit" d="M 450,360 A 90,32 0 1 0 270,360 A 90,32 0 1 0 450,360" transform="rotate(20,360,360)"/>
+    <path id="o2" class="orbit" d="M 490,360 A 130,46 0 1 0 230,360 A 130,46 0 1 0 490,360" transform="rotate(-15,360,360)"/>
+    <path id="o3" class="orbit" d="M 530,360 A 170,60 0 1 0 190,360 A 170,60 0 1 0 530,360" transform="rotate(35,360,360)"/>
+    <path id="o4" class="orbit" d="M 570,360 A 210,74 0 1 0 150,360 A 210,74 0 1 0 570,360" transform="rotate(-25,360,360)"/>
+    <path id="o5" class="orbit" d="M 610,360 A 250,88 0 1 0 110,360 A 250,88 0 1 0 610,360" transform="rotate(10,360,360)"/>
+    <path id="o6" class="orbit" d="M 650,360 A 290,102 0 1 0 70,360 A 290,102 0 1 0 650,360" transform="rotate(-30,360,360)"/>
   </g>
 
   <!-- sun -->
-  <circle cx="360" cy="360" r="70" fill="url(#sunGlow)" filter="url(#glow)"/>
-  <circle cx="360" cy="360" r="46" fill="#FF652F"/>
-  <circle cx="360" cy="360" r="30" fill="#FFE400"/>
-  <text x="360" y="366" text-anchor="middle" font-family="Fira Code, monospace" font-size="13" font-weight="700" fill="#09131B">SUN</text>
+  <circle cx="360" cy="360" r="74" fill="url(#sunGlow)" filter="url(#glow)"/>
+  <circle cx="360" cy="360" r="48" fill="#FF652F"/>
+  <circle cx="360" cy="360" r="32" fill="#FFE400"/>
+  <text x="360" y="366" text-anchor="middle" font-family="Fira Code, monospace" font-size="14" font-weight="700" fill="#09131B">SUN</text>
 
-  <!-- planets: each group rotates around center -->
-  <!-- r=90 js -->
-  <g class="rot">
-    <animateTransform attributeName="transform" type="rotate" from="0 360 360" to="360 360 360" dur="6s" repeatCount="indefinite"/>
-    <circle cx="360" cy="270" r="16" fill="#FFE400"/><text x="360" y="274" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" font-weight="700" fill="#09131B">JS</text>
-    <text x="360" y="242" text-anchor="middle" font-family="Fira Code, monospace" font-size="10" fill="#FFE400">JS</text>
+  <!-- planets -->
+  <!-- JS -->
+  <g>
+    <animateMotion dur="7s" repeatCount="indefinite">
+      <mpath href="#o1"/>
+    </animateMotion>
+    <circle r="15" fill="#FFE400" filter="url(#glow)"/>
+    <text y="4" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" font-weight="700" fill="#09131B">JS</text>
   </g>
-  <!-- r=130 python -->
-  <g class="rot">
-    <animateTransform attributeName="transform" type="rotate" from="0 360 360" to="-360 360 360" dur="9s" repeatCount="indefinite"/>
-    <circle cx="360" cy="230" r="16" fill="#3776AB"/><text x="360" y="234" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" font-weight="700" fill="#fff">PY</text>
-    <text x="360" y="202" text-anchor="middle" font-family="Fira Code, monospace" font-size="10" fill="#FFE400">PY</text>
+  <!-- PY -->
+  <g>
+    <animateMotion dur="10s" repeatCount="indefinite">
+      <mpath href="#o2"/>
+    </animateMotion>
+    <circle r="15" fill="#3776AB" filter="url(#glow)"/>
+    <text y="4" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" font-weight="700" fill="#fff">PY</text>
   </g>
-  <!-- r=170 html -->
-  <g class="rot">
-    <animateTransform attributeName="transform" type="rotate" from="0 360 360" to="360 360 360" dur="12s" repeatCount="indefinite"/>
-    <circle cx="360" cy="190" r="16" fill="#E34F26"/><text x="360" y="194" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" font-weight="700" fill="#fff">HTML</text>
-    <text x="360" y="162" text-anchor="middle" font-family="Fira Code, monospace" font-size="10" fill="#FFE400">HTML</text>
+  <!-- HTML -->
+  <g>
+    <animateMotion dur="13s" repeatCount="indefinite">
+      <mpath href="#o3"/>
+    </animateMotion>
+    <circle r="15" fill="#E34F26" filter="url(#glow)"/>
+    <text y="4" text-anchor="middle" font-family="Fira Code, monospace" font-size="8" font-weight="700" fill="#fff">HTML</text>
   </g>
-  <!-- r=210 css -->
-  <g class="rot">
-    <animateTransform attributeName="transform" type="rotate" from="0 360 360" to="-360 360 360" dur="15s" repeatCount="indefinite"/>
-    <circle cx="360" cy="150" r="16" fill="#1572B6"/><text x="360" y="154" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" font-weight="700" fill="#fff">CSS</text>
-    <text x="360" y="122" text-anchor="middle" font-family="Fira Code, monospace" font-size="10" fill="#FFE400">CSS</text>
+  <!-- CSS -->
+  <g>
+    <animateMotion dur="16s" repeatCount="indefinite">
+      <mpath href="#o4"/>
+    </animateMotion>
+    <circle r="15" fill="#1572B6" filter="url(#glow)"/>
+    <text y="4" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" font-weight="700" fill="#fff">CSS</text>
   </g>
-  <!-- r=250 cpp -->
-  <g class="rot">
-    <animateTransform attributeName="transform" type="rotate" from="0 360 360" to="360 360 360" dur="18s" repeatCount="indefinite"/>
-    <circle cx="360" cy="110" r="16" fill="#00599C"/><text x="360" y="114" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" font-weight="700" fill="#fff">C++</text>
-    <text x="360" y="82" text-anchor="middle" font-family="Fira Code, monospace" font-size="10" fill="#FFE400">C++</text>
+  <!-- C++ -->
+  <g>
+    <animateMotion dur="19s" repeatCount="indefinite">
+      <mpath href="#o5"/>
+    </animateMotion>
+    <circle r="15" fill="#00599C" filter="url(#glow)"/>
+    <text y="4" text-anchor="middle" font-family="Fira Code, monospace" font-size="8" font-weight="700" fill="#fff">C++</text>
   </g>
-  <!-- r=290 react -->
-  <g class="rot">
-    <animateTransform attributeName="transform" type="rotate" from="0 360 360" to="-360 360 360" dur="21s" repeatCount="indefinite"/>
-    <circle cx="360" cy="70" r="16" fill="#61DAFB"/><text x="360" y="74" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" font-weight="700" fill="#09131B">REACT</text>
-    <text x="360" y="42" text-anchor="middle" font-family="Fira Code, monospace" font-size="10" fill="#FFE400">REACT</text>
-  </g>
-  <!-- r=330 nodejs -->
-  <g class="rot">
-    <animateTransform attributeName="transform" type="rotate" from="0 360 360" to="360 360 360" dur="24s" repeatCount="indefinite"/>
-    <circle cx="360" cy="30" r="16" fill="#339933"/><text x="360" y="34" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" font-weight="700" fill="#fff">NODE</text>
-    <text x="360" y="2" text-anchor="middle" font-family="Fira Code, monospace" font-size="10" fill="#FFE400">NODE</text>
+  <!-- REACT -->
+  <g>
+    <animateMotion dur="22s" repeatCount="indefinite">
+      <mpath href="#o6"/>
+    </animateMotion>
+    <circle r="15" fill="#61DAFB" filter="url(#glow)"/>
+    <text y="4" text-anchor="middle" font-family="Fira Code, monospace" font-size="8" font-weight="700" fill="#09131B">REACT</text>
   </g>
 </svg>
