@@ -14,7 +14,7 @@ import urllib.request
 USER = os.environ.get("GITHUB_USER", "FoxyLoon")
 OUT = os.environ.get("GITHUB_OUTPUT_FILE", "assets/solar-system.svg")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
-MAX_PLANETS = int(os.environ.get("MAX_PLANETS", "10"))
+MAX_PLANETS = int(os.environ.get("MAX_PLANETS", "40"))
 
 LANG_COLORS = {
     "JavaScript": "#f1e05a", "TypeScript": "#3178c6", "Python": "#3572A5",
@@ -137,10 +137,12 @@ def render(top: list[tuple[str, int]], total: int, total_repos: int, rng: random
             f'stroke="#FFE400" stroke-width="2" opacity=".85" stroke-linecap="round"/>')
     add('</g>')
 
-    # orbits (bigger radii, more spacing)
+    # orbits: radii spread from R0 to RMAX so any language count fits the canvas
     n = len(top)
+    R0, RMAX = 140.0, 440.0
+    step = (RMAX - R0) / max(n - 1, 1)
     for i in range(n):
-        R = 140 + i * 62
+        R = R0 + i * step
         ry = R * 0.42
         add(f'<ellipse cx="{cx}" cy="{cy}" rx="{R}" ry="{ry:.1f}" fill="none" stroke="#30363d" '
             f'stroke-width="1.2" stroke-dasharray="6 8" opacity="0.5" '
@@ -152,7 +154,7 @@ def render(top: list[tuple[str, int]], total: int, total_repos: int, rng: random
         pct = (b / total * 100) if total else 0
         color = LANG_COLORS.get(lang, "#FF652F")
         short = abbrev(lang)
-        R = 140 + idx * 62
+        R = R0 + idx * step
         ry = R * 0.42
         ex, ey = cx + R * ca, cy + R * sa
         bx, by = cx - R * ca, cy - R * sa
@@ -195,7 +197,7 @@ def render(top: list[tuple[str, int]], total: int, total_repos: int, rng: random
 if __name__ == "__main__":
     langs, repos = collect()
     top = sorted(langs.items(), key=lambda kv: kv[1], reverse=True)
-    top = [(k, v) for k, v in top if k not in ("Makefile", "Batchfile")][:MAX_PLANETS]
+    top = [(k, v) for k, v in top if k not in ("Makefile", "Batchfile")][:MAX_PLANETS]  # cap only as safety limit
     total = sum(v for _, v in top)
     total_repos = count_all_repos()
     rng = random.Random(42)
