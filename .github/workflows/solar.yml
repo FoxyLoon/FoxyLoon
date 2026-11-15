@@ -1,0 +1,27 @@
+name: Solar System
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, master, new-version]
+    paths:
+      - "scripts/solar_system.py"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/solar_system.py
+        env:
+          GITHUB_USER: FoxyLoon
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_OUTPUT_FILE: assets/solar-system.svg
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update solar system languages"
+          file_pattern: assets/solar-system.svg
