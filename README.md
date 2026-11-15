@@ -14,10 +14,6 @@
 
 <br/>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### 🧰 Stack
 
 **Languages**
@@ -36,23 +32,15 @@
 
 <img src="https://skillicons.dev/icons?i=git,linux,docker,vscode&theme=dark" alt="DevOps & Cloud"/>
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
-### 🌐 Languages
+### 🪐 Code Solar System
 
-- 🇬🇧 **English** · ![Intermediate](https://img.shields.io/badge/-Intermediate-FFE400?style=flat-square&labelColor=09131B)
+<div align="center">
 
-### 📌 Quick facts
+<img src="./assets/solar-system.svg" width="100%" alt="FoxyLoon code solar system"/>
 
-- ⌖ **Location** · Lost in Space
-- ✦ **Fun fact** · The Paradox is the Infinite Null of a Paradox
-- 🌱 **Currently** · Learning, shipping, iterating
-- 💬 **Ask me about** · Frontend, small products, sharp positioning
-
-</td>
-</tr>
-</table>
+</div>
 
 <br/>
 
