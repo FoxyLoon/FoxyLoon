@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:09131B,50:FF652F,100:FFE400&height=260&section=header&text=FoxyLoon&fontSize=78&fontColor=ffffff&fontAlignY=36&fontStyle=bold&desc=The%20Mystic%20Fox%20of%20Twelve%20Tails&descSize=22&descAlignY=60&descColor=FFE400&animation=fadeIn&stroke=FF652F&strokeWidth=2" width="100%" alt="FoxyLoon banner"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=FF652F&center=true&vCenter=true&width=720&lines=Shipping%2C+validating%2C+repeating;Building+small+products+with+sharp+positioning;Lost+in+space%2C+found+in+code)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=FF652F&center=true&vCenter=true&width=720&lines=Shipping%2C+validating%2C+repeating;Building+small+products+with+sharp+positioning;Lost+in+space%2C+found+in+code;%E2%8C%96+Location+%C2%B7+Lost+in+Space;%E2%9C%A6+Fun+fact+%C2%B7+The+Paradox+is+the+Infinite+Null+of+a+Paradox;%F0%9F%8C%B1+Currently+%C2%B7+Learning%2C+shipping%2C+iterating;%F0%9F%92%AC+Ask+me+about+%C2%B7+Frontend%2C+small+products%2C+sharp+positioning)](https://git.io/typing-svg)
 
 <br/>
 
@@ -11,17 +11,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-FoxyLoon-09131B?style=for-the-badge&logo=github&logoColor=FFE400)](https://github.com/FoxyLoon)
 
 </div>
-
----
-
-### 🦊 About
-
-> *"The Paradox is the Infinite Null of a Paradox."*
-
-- ⌖ **Location** · Lost in Space
-- ✦ **Fun fact** · The Paradox is the Infinite Null of a Paradox
-- 🌱 **Currently** · Learning, shipping, iterating
-- 💬 **Ask me about** · Frontend, small products, sharp positioning
 
 ---
 
@@ -103,6 +92,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE400,50:FF652F,100:09131B&height=120&section=footer" width="100%" alt="Footer wave"/>
 
-<sub>Made with <a href="https://lebedevnet.github.io/ReadmeForge/">ReadmeForge</a> · <a href="https://github.com/FoxyLoon">github.com/FoxyLoon</a></sub>
+<sub><a href="https://github.com/FoxyLoon">github.com/FoxyLoon</a></sub>
 
 </div>
