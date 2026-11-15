@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:09131B,50:FF652F,100:FFE400&height=260&section=header&text=FoxyLoon&fontSize=78&fontColor=ffffff&fontAlignY=36&fontStyle=bold&desc=The%20Mystic%20Fox%20of%20Twelve%20Tails&descSize=22&descAlignY=60&descColor=FFE400&animation=fadeIn&stroke=FF652F&strokeWidth=2" width="100%" alt="FoxyLoon banner"/>
+<img src="./assets/neon-skyline.svg" width="100%" alt="FoxyLoon neon skyline"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=FF652F&center=true&vCenter=true&width=720&lines=Shipping%2C%20validating%2C%20repeating;Building%20small%20products%20with%20sharp%20positioning;Lost%20in%20space%2C%20found%20in%20code;Twelve%20tails%2C%20zero%20bugs%20%28hopefully%29;Compiling%20stardust%20into%20features;Debugging%20the%20void%20between%20stars;Orbiting%20ideas%2C%20landing%20PRs;The%20fox%20debugs%20at%20midnight;Refactoring%20the%20cosmos%2C%20one%20commit%20at%20a%20time)](https://git.io/typing-svg)
 
@@ -12,7 +12,11 @@
 
 </div>
 
----
+<br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### 🧰 Stack
 
@@ -32,13 +36,25 @@
 
 <img src="https://skillicons.dev/icons?i=git,linux,docker,vscode&theme=dark" alt="DevOps & Cloud"/>
 
----
+</td>
+<td width="50%" valign="top">
 
 ### 🌐 Languages
 
 - 🇬🇧 **English** · ![Intermediate](https://img.shields.io/badge/-Intermediate-FFE400?style=flat-square&labelColor=09131B)
 
----
+### 📌 Quick facts
+
+- ⌖ **Location** · Lost in Space
+- ✦ **Fun fact** · The Paradox is the Infinite Null of a Paradox
+- 🌱 **Currently** · Learning, shipping, iterating
+- 💬 **Ask me about** · Frontend, small products, sharp positioning
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ### 📊 GitHub Stats
 
@@ -53,7 +69,7 @@
 
 </div>
 
----
+<br/>
 
 ### 🏆 Trophies
 
@@ -63,7 +79,7 @@
 
 </div>
 
----
+<br/>
 
 ### 📈 Activity
 
@@ -73,7 +89,7 @@
 
 </div>
 
----
+<br/>
 
 ### 🐍 Contribution Snake
 
@@ -86,11 +102,9 @@
 
 </div>
 
----
+<br/>
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE400,50:FF652F,100:09131B&height=120&section=footer" width="100%" alt="Footer wave"/>
 
 <sub><a href="https://github.com/FoxyLoon">github.com/FoxyLoon</a></sub>
 
